@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+        .header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header p {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .left-column, .right-column {
+            width: 50%;
+        }
+        .left-column {
+            padding-right: 20px;
+        }
+        .right-column {
+            padding-left: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 18px;
+            color: #2e7d32;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #2e7d32;
+            display: inline-block;
+        }
+        .contact-info, .skills, .languages, .references {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .contact-info p, .skills p, .languages p, .references p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 5px;
+        }
+        .skills ul, .languages ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .skills ul li, .languages ul li {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .experience, .education, .activities {
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .experience h3, .education h3, .activities h3 {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+        }
+        .experience p, .education p, .activities p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="profile.jpg" alt="Profile Picture">
+            <h1>HUỲNH TRẦN GIA HUY</h1>
+            <p>SINH VIÊN ĐẠI HỌC</p>
+        </div>
+        <div class="content">
+<!-- Left Column -->
+            <div class="left-column">
+                <div class="section contact-info">
+                    <h2>LIÊN HỆ</h2>
+                    <p><strong>Sinh ngày:</strong> 18/03/2006</p>
+                    <p><strong>Email:</strong> hstptbb.htghuy10n5@gmail.com</p>
+                    <p><strong>Địa chỉ:</strong> 8/45 Tân Hóa</p>
+                    <p><strong>Điện thoại:</strong> 0775401803</p>
+                    <p><strong>Facebook:</strong> Gia Huy</p>
+                </div>
+                <div class="section skills">
+                    <h2>KỸ NĂNG</h2>
+                    <ul>
+                        <li>Làm việc nhóm</li>
+                        <li>Kỹ năng tranh luận</li>
+                        <li>Xử lý vấn đề</li>
+                    </ul>
+                </div>
+                <div class="section languages">
+                    <h2>NGÔN NGỮ</h2>
+                    <p>Tiếng Việt, Tiếng Anh</p>
+                </div>
+                <div class="section references">
+                    <h2>NGƯỜI THAM CHIẾU</h2>
+                    <p>Thầy Nguyễn Kinh Hoàng</p>
+                    <p><strong>Chức vụ:</strong> GVCN</p>
+                    <p><strong>Điện thoại:</strong> 0295829452</p>
+                    <p><strong>Email:</strong> nguyenkhinhoang@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <div class="section experience">
+                    <h2>KINH NGHIỆM LÀM VIỆC</h2>
+                    <h3>Trường Tiểu Học Chợ Lầu 1</h3>
+                    <p>Trợ giảng (2024 - 2028)</p>
+                    <p>Giúp học sinh soạn và làm bài</p>
+                </div>
+                <div class="section education">
+                    <h2>HỌC VẤN</h2>
+                    <h3>Trường Đại Học Sư Phạm Thành Phố Hồ Chí Minh</h3>
+                    <p>Ngành Sư phạm Tin học (2024 - 2028)</p>
+                    <p>Sinh viên năm nhất</p>
+                </div>
+                <div class="section activities">
+                    <h2>HOẠT ĐỘNG</h2>
+                    <h3>Green Life Style</h3>
+                    <p>Thành viên</p>
+                    <p>Tình nguyện, hoạt bát</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
